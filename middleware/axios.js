@@ -7,7 +7,7 @@ const seconds = 60 * 1000
 const minutes = 60 * 60 * 1000
 
 const axiosInstance = axios.create({
-  baseURL: 'https://api.line.me/v2/bot',
+  baseURL: LINE_API_BASE_URL,
   // timeout: seconds,
   headers: {
     'Content-Type': 'application/json',
